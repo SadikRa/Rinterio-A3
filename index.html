@@ -40,7 +40,7 @@
         theme: {
           extend: {
             colors: {
-              'customGreen': "#ABEF5F",
+              customGreen: "#ABEF5F",
             },
           },
         },
@@ -83,14 +83,13 @@
             </ul>
           </div>
           <a class="btn btn-ghost text-xl">
-           <div class="flex gap-4">
-            <div class="bg-lime-300 rounded-lg p-4 flex items-center space-x-2">
-              <!-- Font Awesome Icon -->
-              <i class="fa-solid fa-arrow-up-right-from-square"></i>
-              
-          </div>
-            <div class="font-extrabold">Rinterio</div>
-           </div>
+            <div class="flex gap-4">
+              <div class="bg-lime-300 rounded-full p-2 flex items-center">
+                <!-- Font Awesome Icon -->
+                <i class="fa-solid text-1xl fa-arrow-up-right-from-square"></i>
+              </div>
+              <div class="font-extrabold">Rinterio</div>
+            </div>
           </a>
         </div>
         <div class="navbar-center hidden lg:flex">
@@ -105,13 +104,67 @@
           </ul>
         </div>
         <div class="navbar-end">
-          <div>
-            <div>
-
+          <div class="flex items-center justify-center gap-4 sm:hidden lg:flex">
+            <div class="flex items-center justify-center gap-2">
+              <div
+                class="bg-white p-2 rounded-full text-1xl flex items-center justify-center"
+              >
+                <i class="fa-solid fa-magnifying-glass"></i>
+              </div>
+              <div
+                class="bg-white p-2 rounded-full text-1xl flex items-center justify-center"
+              >
+                <i class="fa-solid fa-cart-shopping"></i>
+              </div>
             </div>
-            <a class="btn bg-red-800">Button</a>
+            <div
+              class="bg-lime-300 p-3 pr-6 pl-6 rounded-3xl flex items-center justify-center gap-1"
+            >
+              <div>
+                <a class="btn btn-info bg-white text-1xl">Book Consult</a>
+              </div>
+              <div
+                class="bg-black text-1xl rounded-full p-2 flex items-center justify-center"
+              >
+                <!-- Font Awesome Icon -->
+                <i class="fa-solid text-1xl fa-arrow-up-right-from-square"></i>
+              </div>
+            </div>
           </div>
         </div>
+      </div>
+
+      <!-- banner section  -->
+
+      <div class="mt-16">
+        <div class="flex justify-center items-center">
+          <img
+            class="sm:w-full sm:h-full text-center lg:w-[570px] lg:h-[380px]"
+            src="./assets/banner.png"
+            alt=""
+            srcset=""
+          />
+        </div>
+
+        <h1
+          class="font-extrabold sm:mt-5 lg:mt-10 sm:text-2xl lg:text-7xl text-center"
+        >
+          A barn house of this design has a <br />
+          striking appearance
+        </h1>
+
+        <p class="text-center sm:mt-5 lg:mt-10">
+          The barn house captivates with its blend of rustic charm and modern
+          sophistication, featuring weathered wood, sleek metal accents, and
+          large windows that flood the space with natural light.
+        </p>
+
+       <div class="flex items-center justify-center">
+        <button class="btn btn-primary bg-lime-300 rounded-2xl p-3 sm:mt-5 lg:mt-10">View Details 
+
+          <i class="fa-solid text-1xl fa-arrow-up-right-from-square"></i>
+        </button>
+       </div>
       </div>
     </header>
 
